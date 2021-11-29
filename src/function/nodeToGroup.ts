@@ -8,6 +8,7 @@ import { isExistPseudoText, isExistPseudoShape } from '../utils/pseudo';
 import { checkNoNull } from '../utils/utils';
 import { AnyLayer } from '..';
 
+//optional comments...
 export interface Options {
   postTransform?: (group: AnyLayer) => AnyLayer;
   getGroupName: (node: Element) => string;
